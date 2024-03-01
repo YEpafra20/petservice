@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Selling System - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Yeddula Pets Store</h1>
+            <div class="login">
+                <ul>
+                    <li><a href="#" >Login/Signup</a></li>
+                </ul>
+            </div><br><br><br><br>
+            <div class="button">
+                <ul>
+                    <li><a href="#" onclick="showPets('Home')">Home</a></li>
+                    <li><a href="#" onclick="showPets('Pets')">Pets</a></li>
+                    <li><a href="#" onclick="showPets('Aboutus')">About us</a></li>
+                    <li><a href="#" onclick="showPets('Contact')">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container1" id="petContainer">
+        <h2><span style="color:purple"><big>Welcome,</big></span><small>Yeddula Pet's Store</small></h2>
+        <p>Please select a category from the menu to see available pets.</p>
+    </div>
+    <script>
+        function showPets(category) {
+            var petContainer = document.getElementById("petContainer");
+            var pets = {
+                Home: "<h1>Yeddula Pets</h1><p>We offer a variety of pets for sale,Our pets are sourced from reputable breeders and are well-cared for before they find their forever homes with you.</p>",
+                Pets: "<h2>Available Pets</h2><p>Dogs</p>",
+                Aboutus: "<h2>About Us</h2><p>Welcome to Yeddula Pets, where passion meets pets! At Yeddula Pets, we are dedicated to providing the highest quality pets and exceptional service to our customers. With a deep love for animals and years of experience in the pet industry, We carefully select each animal in our shop, working closely with reputable breeders and suppliers to ensure the well-being of every pet we sell.At Yeddula's, we believe that every pet deserves a loving home, and we're honored to be a part of your journey in welcoming a new member into your family.</p>",
+                Contact: "<h5>For any Enquiry:</h5><p>Email:yepafra3@gmail.com</br>contact:180/5467836-5642863</p>",
+            };
+            petContainer.innerHTML = pets[category];
+        }
+    </script>
+    <div>
+        <h2>Pets in Live</h2>
+    </div>
+    <main>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwW6Ga4O8K8jHb7oOpr3S602XciPf199tAYg&usqp=CAU"
+                alt="pet-card">
+            <h3>$250</h3>
+            <p>Ripley Dog </p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX-cwc7DttXZKjUzBI8P9GfRSLAnYH6XJpIQ&usqp=CAU"
+                alt="pet-card">
+            <h3>$200</h3>
+            <p>Gator Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb0w1EiRXVH52wvb8tQei0MGFC5vK2Pc5i5g&usqp=CAU"
+                alt="pet-card">
+            <h3>$330</h3>
+            <p>Abby Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxe1sUh0d6Eovr5uQb_BiauJ_8i96OCMT48w&usqp=CAU"
+                alt="pet-card">
+            <h3>$150</h3>
+            <p>Penny Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkd2jNc7fQLHAq8exw8GtmW2VNMabFdG__5A&usqp=CAU"
+                alt="pet-card">
+            <h3>$299</h3>
+            <p>Bowen Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFvpcEvD04lile3Lm5R4C0JFxyCD0AZXNQDQ&usqp=CAU"
+                alt="pet-card">
+            <h3>$350</h3>
+            <p>Browni Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_Y8vk-2GL26RP7QSEAbaSKgVZMipdLydDWQ&usqp=CAU"
+                alt="pet-card">
+            <h3>$600</h3>
+            <p>Cody Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZRdC6Yzx0A_F1ZrCHVSzmLv5rmjGZzQu-CpMEMkZyakVa66bTY4N5SccsZONAEN33AbY&usqp=CAU"
+                alt="pet-card">
+            <h3>$590</h3>
+            <p>Molly Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9XPjbmGbErO5ROHHAJoSOfELqgfWSUP1pqA&usqp=CAU"
+                alt="pet-card">
+            <h3>$170</h3>
+            <p>Ollie Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoPw2AGG6YjuSamhFg-BruPauy50YhcP2LkA&usqp=CAU"
+                alt="pet-card">
+            <h3>$275</h3>
+            <p>Emmy Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfmAeDdvDlqMm6ZVzNXJnDLHJSjXs4DIWlgg&usqp=CAU"
+                alt="pet-card">
+            <h3>$450</h3>
+            <p>Logan Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTifHgH4zR3HFE4LeFZ1_XHNwgyqMqF3yyY5w&usqp=CAU"
+                alt="pet-card">
+            <h3>$389</h3>
+            <p>Dazzle</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5TpeZd7wGc3-bJqu1p1GkKCgi46gPjHJgRA&usqp=CAU"
+                alt="pet-card">
+            <h3>$400</h3>
+            <p>Spruce Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs7uM-gyWa_454oMTo_yf82qHmBGwXJhg1KUhJ_Rtv2J2czA1EhKhLh6VtZ7hAgQiV8O8&usqp=CAU"
+                alt="pet-card">
+            <h3>$450</h3>
+            <p>Bikky Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ErSE0HfrFQRkWuH0zHP34jnemc4Of02Rrg&usqp=CAU"
+                alt="pet-card">
+            <h3>$400</h3>
+            <p>Rammi Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG7jU2BxfBnHdyBd1BTGd8-OAYVwG-tio2Dg&usqp=CAU"
+                alt="pet-card">
+            <h3>$200</h3>
+            <p>Gator Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaFIgA60R5bJO0Ok6-ufrRIVCfGK535foNcA&usqp=CAU"
+                alt="pet-card">
+            <h3>$255</h3>
+            <p>Rames Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNcJyffCQET-NSNEf1MzHet0Jms8KDf5PRnw&usqp=CAU"
+                alt="pet-card">
+            <h3>$200</h3>
+            <p>fulik Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX-cwc7DttXZKjUzBI8P9GfRSLAnYH6XJpIQ&usqp=CAU"
+                alt="pet-card">
+            <h3>$400</h3>
+            <p>kim Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2edkV9ADXiXmxbcBdaBztCFk-wxMWUa7-aQ&usqp=CAU"
+                alt="pet-card">
+            <h3>$555</h3>
+            <p>Griner Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNlV0UKr3AzYRlErx8cpvUmmZNUbk5ZmfKcw&usqp=CAU"
+                alt="pet-card">
+            <h3>$450</h3>
+            <p>Hodi Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ykNCkzAZ_Ak7icD_zvOX2VJb_LlA0WHaRw&usqp=CAU"
+                alt="pet-card">
+            <h3>$450</h3>
+            <p>Woolly Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6IS-g8D910Ms2ExBUcwsVtkTFV8hZs7dsdtxMsoG-dD8g1hvnvOH1cdr8ft0Dd4vXBDg&usqp=CAU"
+                alt="pet-card">
+            <h3>$500</h3>
+            <p>Marcan Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcdDIP61IrAFzsVBg1-__RFK_-aIJOzBKd6g&usqp=CAU"
+                alt="pet-card">
+            <h3>$300</h3>
+            <p>Influ Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr-0rqypPbHjWLR5lT3v6l78L8sKy0V_xLyQ&usqp=CAU"
+                alt="pet-card">
+            <h3>$290</h3>
+            <p>dragon dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgDFp3dmPTGj1xOEuSlAt-ilTfBOmYfth5hQ&usqp=CAU"
+                alt="pet-card">
+            <h3>$300</h3>
+            <p>Gator Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT-0qP1-_adIF_wZ4K-2YAcHYv1e2m3aQhtQ&usqp=CAU"
+                alt="pet-card">
+            <h3>$700</h3>
+            <p>Forbes Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv1CN01Irgl7FP7nzjxLtVC0qgQDag2THeyQ&usqp=CAU"
+                alt="pet-card">
+            <h3>$330</h3>
+            <p>Samoyed Dog Breed</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQwRY0w1npsmkqjRLqeXSo7krBe-Kf8wKG5w&usqp=CAU"
+                alt="pet-card">
+            <h3>$500</h3>
+            <p>Medium Dog Breeds</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf3CDLWcq2v9dVmbeWib3_1ubOMiCWDgHPZA&usqp=CAU"
+                alt="pet-card">
+            <h3>$309</h3>
+            <p>Puppy Dog Eyes</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytvxqsMJ6Fgmo1NHMvUMjNiCnhSDaT4OFqscVFKmboYy4Xr4LDaLCq4RtVwQAjkOzpQE&usqp=CAU"
+                alt="pet-card">
+            <h3>$309</h3>
+            <p>Pramik Dog</p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="pet-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_9o6SuASFL9KC8gxo4NVTYb_mTHS6l4d-W3xSL2FiYw64NXlR0dVbkk_rUGVOsmbGRJc&usqp=CAU"
+                alt="pet-card">
+            <h3>$309</h3>
+            <p>Grimmi Dog </p>
+            <button>Buy</button>
+            <button>Contact Seller</button>
+            <button>Add to Cart</button>
+        </div>
+        <div class="container2">
+            <h1>Choose Your Payment Option</h1>
+            <div class="payment-options">
+                <div class="option">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdGWT4XF8aPq_9hK4ILRota_JRaxS8InJGaQ&usqp=CAU"
+                        alt="Credit Card">
+                    <h2>Credit Card</h2>
+                </div>
+                <div class="option">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcGr6xe0eqshMPsrXjaCQSC9oRIuAHgbCvZQ&usqp=CAU"
+                        alt="PayPal">
+                    <h2>PayPal</h2>
+                </div>
+                <div class="option">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPe8u7ghWkXFoTgs62UNgQu-vdKu57ZHhB6A&usqp=CAU"
+                        alt="Cash on Delivery">
+                    <h2>Cash on Delivery</h2>
+                </div>
+            </div>
+            <div>
+
+                <p>©Terms and conditions|privacy policy</p>
+            </div>
+        </div>
+
+    </main>
+</div>
+</body>
+
+</html>
